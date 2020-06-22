@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="une page d'ouverture de compte client du projet : Gestion des activités bancaires">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="../public/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <nav>
+      <a href="#"><img src="../public/img/login.png" alt="login" class="avatar"></a>
+    </nav>
+    <div class="logo">
+      <a href="#" title="Banque du peuple"><img src="../public/img/logo.png " title="Banque du peuple" alt="Banque du peuple"></a>
+    </div>
+  </header>
+  <main class="main">
+    <h1 class="formulaire-title">Ouverture de compte</h1>
+      <form action="#" method="GET" id="inscription" class="formulaire">
+        <fieldset>
+          <legend>Saisir les informations du client</legend>
+          <div class="division">
+            <label for="numeroCompte">Numéro du compte </label>
+            <input type="text" name="numeroCompte" id="numeroCompte" required />
+          </div>
+          <div class="division">
+            <label for="numeroAgence">Numéro de l'agence </label>
+            <input type="text" name="numeroAgence" id="numeroAgence" required />
+          </div>
+          <div class="division">
+            <label for="nom">Nom </label>
+            <input type="text" name="nom" id="nom" required />
+          </div>
+          <div class="division">
+            <label for="prenom">Prénom </label>
+            <input type="text" name="prenom" id="prenom" required />
+          </div>
+          <div class="division">
+            <label for="adresse">Adresse </label>
+            <input type="text" name="adresse" id="adresse" required />
+          </div>
+          <div class="division">
+            <label for="email">Email </label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="division">
+            <label for="telephone">Téléphone </label>
+            <input type="tel" name="telephone" id="telephone" required />
+          </div>
+          <div class="division">
+            <label for="salaireActuel">Salaire actuel </label>
+            <input type="text" name="salaireActuel" id="salaireActuel" required />
+          </div>
+          <div class="division">
+            <label for="profession">Profession </label>
+            <input type="text" name="profession" id="profession" required />
+          </div>
+          <div class="division">
+            <label for="typeCompte" >Type de compte </label>
+            <select name="typeCompte" id="typeCompte" required >
+              <option value="">Choisir le type de compte</option>
+              <option value="compteEpargne">Compte Epargne Simple et Xeewel </option>
+              <option value="compteCourant">Compte Courant</option>
+              <option value="compteBloque">Compte Bloqué</option>
+            </select>
+          </div>
+          <fieldset id="compteCourant">
+            <legend>Les coordonnées de son employeur</legend>
+            <div class="division">
+              <label for="numeroIdentification">Numéro d'identification </label>
+              <input type="text" name="numeroIdentification" id="numeroIdentification" required />
+            </div>
+            <div class="division">
+              <label for="raisonSocial">Raison social </label>
+              <input type="text" name="raisonSocial" id="raisonSocial" required />
+            </div>
+            <div class="division">
+              <label for="nomEmployeur">Nom </label>
+              <input type="text" name="nomEmployeur" id="nomEmployeur" required />
+            </div>
+            <div class="division">
+              <label for="adresseEmployeur">Adresse </label>
+              <input type="text" name="adresseEmployeur" id="adresseEmployeur" required />
+            </div>
+          </fieldset>
+          <div class="division">
+            <input type="submit" value="Envoyer" />
+            <input type="reset" value="Annuler" />
+          </div>
+      </fieldset>
+      </form>
+  </main>
+  <aside class="sidebar">
+    <h4 class="sidebar-title">Responsable Compte</h4>
+    <ul>
+      <li><a href="#">Ajouter un client</a></li>
+      <li><a href="#">Effectuer un virement</a></li>
+      <li><a href="#">Se deconnecter</a></li>
+    </ul>
+  </aside>
+  <footer class="footer">
+  </footer>
+
+<script type="text/javascript" src="js/controle.js"></script>
+</body>
+</html>
