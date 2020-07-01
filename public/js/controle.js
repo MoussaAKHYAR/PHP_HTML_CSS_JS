@@ -20,6 +20,7 @@
 //     alert("Formulaire envoyé ! ")
 
 // })
+
 document.getElementById("inscription").addEventListener("submit", function (e) {
   alert("Formulaire envoyé ! ")
   e.preventDefault();

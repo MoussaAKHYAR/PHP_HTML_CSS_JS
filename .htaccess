@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteRule ^login$ login.php
+RewriteRule ^accueil$ accueil.php
+
+RewriteRule ^responsable$ view/responsable/responsable.php
+RewriteRule ^clients$ view/client/client.php
+RewriteRule ^comptes$ view/compte/compte.php
+RewriteRule ^employers$ view/employer/employer.php
+
+RewriteRule ^loginController controller/loginController.php
+RewriteRule ^clientCompteController controller/clientCompteController.php
+RewriteRule ^clientController controller/clientController.php
+RewriteRule ^compteController controller/compteController.php
+RewriteRule ^employerController controller/employerController.php
