@@ -1,1 +1,0 @@
-choix-client=on&choix-type-client=on&query=&choix-compte=on&prenom=&nom=&cni=&tel=&email=&nom_utilisateur=&prof=&adr=&nom_entreprise=&tel_entreprise=&email_entreprise=&nom_utilisateur_entreprise=&budget_entreprise=&adr_entreprise=&raison_social=&salaire=&nom_employeur=&adr_employeur=&date_debut=&date_fin=

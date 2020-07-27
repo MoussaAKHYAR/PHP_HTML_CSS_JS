@@ -27,7 +27,7 @@ function mev(txt_defaut,nom_controle)
 
   if(longueur<4 || document.getElementById(nom_controle).value == txt_defaut)
   {
-    document.getElementById(nom_controle).style.border='#fb2525 2px solid';
+    //document.getElementById(nom_controle).style.border='#fb2525 2px solid';
 
     switch(nom_controle)
     {
@@ -41,7 +41,7 @@ function mev(txt_defaut,nom_controle)
   }
   else
   {
-    document.getElementById(nom_controle).style.border='#333 1px solid';
+    //document.getElementById(nom_controle).style.border='#333 1px solid';
 
     switch(nom_controle)
     {

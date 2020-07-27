@@ -27,6 +27,8 @@ if(isset($_GET['logout']))
     session_unset();
     session_destroy();
     $_SESSION['nom'] = "";
+    //echo $_SESSION['nom'];
+
     header("location:login");
   }
 ?>
